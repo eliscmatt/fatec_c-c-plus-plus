@@ -10,7 +10,6 @@
         float a, b, c;
         cin >> a >> b >> c ;
 
-
         raiz(a,b,c);
         return 0;
     }

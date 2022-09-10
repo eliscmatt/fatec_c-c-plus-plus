@@ -5,9 +5,11 @@ void hanoi(int n, char ori, char dest, char aux){
         printf("Mover disco 1 do pino %c para pino %c\n", ori , dest);
         return;
     }
-    hanoi(n-1, ori, aux, dest);
+
+    hanoi(n-1, ori, aux, dest); //nentendi
     printf("Mover disco %d do pino %c para pino %c\n", n, ori, dest);
-    hanoi(n-1, aux, dest, ori);
+    hanoi(n-1, aux, dest, ori);//entendi
+
 }
 
 int main(){
